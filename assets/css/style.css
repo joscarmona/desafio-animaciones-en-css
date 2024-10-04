@@ -92,9 +92,9 @@ body{
 
 .filtros select{
     width: 85%;
-    height: 40%;
+    height: 2em;
     border: none;
-    font-size: 1rem;
+    /* font-size: 1em; */
     border-radius: 5px;
 }
 
@@ -224,18 +224,21 @@ body{
     outline: none;
 }
 
+/* ************************************************************************ */
 .in-button-contacto{
     font-size: 1em;
     border-radius: 5px;
     border: none;
-    width: 30%;
+    /* width: 30%; */
     padding: 0.25em 0.5em; 
     background-color: #8893FA;
     /* color: white; */
     font-weight: 600;
     padding: 0.5em 0.75em;
     margin-bottom: 1em;
+    color: #1300FA;
 }
+/* ****************************************************** */
 
 .in-button-contacto:hover{
     background-color: #34C5FA;
@@ -303,14 +306,14 @@ body{
         justify-content: initial;
         align-items: center;
         padding-top: 1rem;
-        gap: 1rem;
+        /* gap: 1rem; */
         margin-top: 70px;
     }
 
     .filtros select{
         font-size: 0.8rem;
         width: 60%;
-        height: 2%;
+        height: 2em;
     }
     /* ********************************************* */
 
@@ -405,15 +408,15 @@ body{
     /* ************ FILTROS DE BÚSQUEDA ************ */
     .filtros{
         justify-content: center;
-        gap: initial;
+        /* gap: initial; */
         margin-top: initial;
         padding-bottom: 10px;
     }
     
     .filtros select{
-        font-size: 0.8rem;
+        /* font-size: 0.8rem; */
         width: 80%;
-        height: 100%;
+        height: 2em;
     }
     /* ********************************************* */
 
